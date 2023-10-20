@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(56, 37, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.primeira {
+    background-repeat: no-repeat;
+    background-image: url(espaço.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+
+.pessoal{
+    color:gray;
+}
+
+.pessoal__img{
+    margin-top: 40px;
+    height: 110px;
+    width: 120px;
+    border-radius: 40%;
+    border: solid 4px rgb(87, 36, 87);
+}
+
+.pessoal__nome{
+    margin-bottom: 10px;
+}
+.pessoal__descrição{
+    margin-bottom: 60px;
+}
+
+.links a {
+    margin-right: 10px;
+}
+
+.links img {
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    display: inline-block;
+    height: 100px;
+    width: 25%;
+    margin-right: 5px;
+    margin-bottom:80px;
+
+}
+
+.subtitulos{
+    font-size: 26px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, gray ,rgb(87, 36, 87) );
+    border-image-slice: 1; 
+    color: gray
+}
+p{
+    color: gray
+}
